@@ -1,0 +1,54 @@
+.flashcard {
+
+    background-color: #EEFEFF;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    height: 100px;
+    aspect-ratio: 3/2;
+  }
+  
+  .flashcard .front,
+  .flashcard .back {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  
+    padding: 10px;
+    word-wrap: break-word;
+  }
+  
+  .flashcard .front-input,
+  .flashcard .back-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .flashcard .actions {
+    bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10px;
+    width: 100%
+  }
+  
+  .flashcard .actions button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+  
+  .flashcard .actions button:hover {
+    background-color: #0056b3;
+  }
